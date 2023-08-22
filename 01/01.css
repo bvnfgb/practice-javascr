@@ -1,0 +1,17 @@
+.detail-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > article  summary{
+    background-color: bisque;
+}
+.detail-div > div{
+    width: 20%;
+}
+.detail-div > p{
+    width: 80%;
+}
+.detail-div  img{
+    border-radius: 50%;
+}
