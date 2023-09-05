@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,53 @@
     <title>자바스크립트</title>
     <script src="./04.js"></script>
 </head>
+
 <body>
     <main class="container">
         <article>
-            <header><h1>주사위 던지기</h1></header>
-            <div><div id="adiv"></div></div>
-            <footer>
-                <div class="grid">
-                    <button id="bt1" onclick="dice()" >주사위 던지기</button>
+            <hgroup>
+                <header>
+                    <hgroup>
+                        <h1>주사위 던지기</h1>
+                        <h2>결과 보기</h2>
+                    </hgroup>
+                </header>
+                <div class="div1">
+                    <div id="adiv"></div>
                 </div>
-                
-            </footer>
+                <footer>
+                    <!-- Radios -->
+                    <fieldset>
+                        <legend>번호선택</legend>
+                        <label for="r1">
+                            <input type="radio" id="r1" name="num" value="1" checked>1
+                        </label>
+                        <label for="r2">
+                            <input type="radio" id="r2" name="num" value="2">2
+                        </label>
+                        <label for="r3">
+                            <input type="radio" id="r3" name="num" value="3">3
+                        </label>
+                        <label for="r4">
+                            <input type="radio" id="r4" name="num" value="4">4
+                        </label>
+                        <label for="r5">
+                            <input type="radio" id="r5" name="num" value="5">5
+                        </label>
+
+                        <label for="r6">
+                            <input type="radio" id="r6" name="num" value="6">6
+                        </label>
+
+                    </fieldset>
+                    <div class="grid">
+                        <button>확인</button>
+
+                    </div>
+
+                </footer>
         </article>
     </main>
 </body>
+
 </html>

@@ -1,13 +1,18 @@
-article > div{
+article > div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-article > div >div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#adiv{
+
+#adiv {
     width: 50%;
+}
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset > label{
+    display: inline-flex;
+    width: 15%;
 }
