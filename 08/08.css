@@ -1,0 +1,56 @@
+form{
+    display: flex;
+}
+th{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+.numtd{
+    display: inline-flex;
+    width: 100%;
+    justify-content: right;
+    align-items: right;
+}
+.ac1, .ac2, ac3{
+    display: flex;
+    width: 10%;
+    justify-content: right;
+    align-items: right;
+}
+.ac1{
+    color: green;
+}
+.ac2{
+    color: red;
+}
+.ac3{
+    color: blue;
+}
+.ad{
+    display: flex;
+    width: 90%;
+
+}
+.ae{
+    display: flex;
+}
+
+.title{
+    display: inline-flex;
+    width:12.5%;
+    height:50px;
+    justify-items: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+.con{
+    display: inline-flex;
+    width:12.5%;
+    height:50px;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    color: blue;
+}
