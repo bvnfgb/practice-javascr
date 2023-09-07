@@ -1,0 +1,23 @@
+/* 07.css */
+
+/* Apply CSS Grid to the grid containers */
+.gri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* Style the individual grid items */
+  .gri > div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid gray;
+  }
+  
